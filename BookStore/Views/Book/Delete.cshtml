@@ -1,0 +1,46 @@
+﻿@model BookStore.BLL.DTOs.BookDto
+
+@{
+    ViewData["Title"] = "Delete Book";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Delete Book</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title text-danger">Are you sure you want to delete this book?</h3>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <tbody>
+                        <tr>
+                            <th class="bg-dark text-light">Title</th>
+                            <td>@Model.Title</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-dark text-light">Description</th>
+                            <td>@Model.Description</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-dark text-light">ISBN</th>
+                            <td>@Model.ISBN</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-dark text-light">Price</th>
+                            <td>@Model.Price</td>
+                        </tr>
+                        <tr>
+                            <th class="bg-dark text-light">Author</th>
+                            <td>@Model.AuthorName</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <form asp-action="Delete" method="post" class="text-center">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger">Delete</button>
+                <a asp-action="Index" class="btn btn-secondary ml-2">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>

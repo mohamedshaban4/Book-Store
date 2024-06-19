@@ -1,0 +1,38 @@
+﻿@model BookStore.BLL.DTOs.AuthorDto
+
+@{
+    ViewData["Title"] = "Author Details";
+}
+
+<h1>Author Details</h1>
+
+<div class="card">
+    <div class="card-header">
+        <h2>@Model.Name</h2>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-2">ID</dt>
+            <dd class="col-sm-10">@Model.Id</dd>
+
+            <dt class="col-sm-2">Name</dt>
+            <dd class="col-sm-10">@Model.Name</dd>
+
+            <dt class="col-sm-2">Number of Books</dt>
+            <dd class="col-sm-10">@Model.BooksCount</dd>
+
+            <dd class="col-sm-10">
+                <ul>
+                    @foreach (var book in Model.Books)
+                    {
+                        <li>@book.Title</li>
+                    }
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Edit</a>
+        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+    </div>
+</div>

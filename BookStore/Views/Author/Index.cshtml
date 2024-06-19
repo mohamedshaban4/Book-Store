@@ -1,0 +1,59 @@
+﻿@model IEnumerable<BookStore.BLL.DTOs.AuthorDto>
+
+@{
+    ViewData["Title"] = "Authors";
+}
+
+<h1>Authors</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Author</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Name)</th>
+            <th>@Html.DisplayName("Books")</th>
+            <th>Edit</th>
+            <th>Details</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => author.Name)</td>
+                <td>@author.BooksCount</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@author.Id" class="btn btn-sm btn-secondary">
+                        <i class="fas fa-edit"></i> Edit
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@author.Id" class="btn btn-sm btn-info">
+                        <i class="fas fa-info-circle"></i> Details
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@author.Id" class="btn btn-sm btn-danger">
+                        <i class="fas fa-trash-alt"></i> Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">
+        No authors found.
+    </div>
+}
+
+<!-- Ensure you have a reference to FontAwesome for the icons -->
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}

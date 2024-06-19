@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D561C426-C595-4D27-B598-4A179CDF9695}|BookStore.PL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore\\mapping\\profilemapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D561C426-C595-4D27-B598-4A179CDF9695}|BookStore.PL.csproj|solutionrelative:mapping\\profilemapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9A0126D-204A-4EBC-AE37-E873503A20D8}|..\\BookStore.DLL\\BookStore.DAL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore.dll\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9A0126D-204A-4EBC-AE37-E873503A20D8}|..\\BookStore.DLL\\BookStore.DAL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore.dll\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9A0126D-204A-4EBC-AE37-E873503A20D8}|..\\BookStore.DLL\\BookStore.DAL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore.dll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D561C426-C595-4D27-B598-4A179CDF9695}|BookStore.PL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D561C426-C595-4D27-B598-4A179CDF9695}|BookStore.PL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9A0126D-204A-4EBC-AE37-E873503A20D8}|..\\BookStore.DLL\\BookStore.DAL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore.dll\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9A0126D-204A-4EBC-AE37-E873503A20D8}|..\\BookStore.DLL\\BookStore.DAL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore.dll\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9A0126D-204A-4EBC-AE37-E873503A20D8}|..\\BookStore.DLL\\BookStore.DAL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore.dll\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D561C426-C595-4D27-B598-4A179CDF9695}|BookStore.PL.csproj|c:\\users\\mohamed\\desktop\\mvc\\book store\\bookstore\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D561C426-C595-4D27-B598-4A179CDF9695}|BookStore.PL.csproj|solutionrelative:views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore\\Mapping\\ProfileMapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\ProfileMapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore\\Mapping\\ProfileMapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\ProfileMapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:04:14.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\BookStore.DLL\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\Entities\\User.cs",
+              "RelativeToolTip": "..\\BookStore.DLL\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:03:26.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\BookStore.DLL\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "..\\BookStore.DLL\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:03:06.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\IRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\BookStore.DLL\\IRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\IRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\BookStore.DLL\\IRepository\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:02:25.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\BookStore.DLL\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "..\\BookStore.DLL\\Repository\\GenericRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:01:05.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:58:37.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\BookStore.DLL\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\BookStore.DLL\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:57:41.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\BookStore.DLL\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore.DLL\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\BookStore.DLL\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:57:23.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mohamed\\Desktop\\MVC\\Book Store\\BookStore\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "Views\\Book\\Index.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAADwvzQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T06:15:12.922Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
