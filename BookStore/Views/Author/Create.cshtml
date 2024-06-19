@@ -1,0 +1,21 @@
+﻿@model BookStore.BLL.DTOs.AuthorCreateDto
+
+@{
+    ViewData["Title"] = "Create Author";
+}
+
+<h1>Create a New Author</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- Add other fields as necessary -->
+
+    <button type="submit" class="btn btn-primary mt-2">Create</button>
+    <a class="btn btn-primary mr-2 mt-2" asp-action="Index">Back to List</a>
+
+</form>

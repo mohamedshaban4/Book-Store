@@ -1,0 +1,29 @@
+﻿@model BookStore.BLL.DTOs.AuthorCreateDto
+
+@{
+    ViewData["Title"] = "Edit Author";
+}
+
+<h1>Edit Author</h1>
+
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="BooksCount" class="control-label"></label>
+        <input asp-for="BooksCount" class="form-control" readonly />
+    </div>
+
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit" class="btn btn-primary mt-2">Save</button>
+    <a asp-action="Index" class="btn btn-secondary mt-2">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

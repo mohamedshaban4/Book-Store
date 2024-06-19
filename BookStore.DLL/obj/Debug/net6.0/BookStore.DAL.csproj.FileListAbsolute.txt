@@ -1,0 +1,14 @@
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\bin\Debug\net6.0\BookStore.DAL.deps.json
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\bin\Debug\net6.0\BookStore.DAL.runtimeconfig.json
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\bin\Debug\net6.0\BookStore.DAL.dll
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\bin\Debug\net6.0\BookStore.DAL.pdb
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.AssemblyInfo.cs
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.dll
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\refint\BookStore.DAL.dll
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.pdb
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\BookStore.DAL.genruntimeconfig.cache
+C:\Users\Mohamed\Desktop\MVC\Book Store\BookStore.DLL\obj\Debug\net6.0\ref\BookStore.DAL.dll

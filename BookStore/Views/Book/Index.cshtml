@@ -1,0 +1,97 @@
+﻿@model IEnumerable<BookStore.BLL.DTOs.BookDto>
+
+@{
+    ViewData["Title"] = "Books";
+}
+
+<div class="container mt-4">
+    <h1>Books</h1>
+    <div class="d-flex justify-content-between mb-3">
+        <a class="btn btn-primary" asp-action="Create">Create New</a>
+
+        <!-- Search Form -->
+        <form asp-action="Search" method="get" class="form-inline">
+            <div class="input-group">
+                <input type="text" id="searchString" name="searchString" class="form-control" placeholder="Enter title, author, or price">
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            No books found.
+        </div>
+    }
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Title)</th>
+                    <th>Image</th>
+                    <th>@Html.DisplayNameFor(model => model.Description)</th>
+                    <th>@Html.DisplayNameFor(model => model.ISBN)</th>
+                    <th>@Html.DisplayNameFor(model => model.Price)</th>
+                    <th>@Html.DisplayNameFor(model => model.AuthorName)</th>
+                    <th>Edit</th>
+                    <th>Details</th>
+                    <th>Delete</th>
+                    <th>Add to Cart</th> <!-- New column for Add to Cart button -->
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImageUrl))
+                            {
+                                <img src="~/Files/BookImages/@item.ImageUrl" class="img-thumbnail" alt="Book Image" height="40" width="40" style="margin-right: 10px;" />
+                            }
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ISBN)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                        <td>@Html.DisplayFor(modelItem => item.AuthorName)</td>
+                        <td>
+                            <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.Id" style="margin-right: 10px;">
+                                <i class="fas fa-edit"></i> Edit
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.Id" style="margin-right: 10px;">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">
+                                <i class="fas fa-trash-alt"></i> Delete
+                            </a>
+                        </td>
+                        <td>
+                            <form asp-controller="ShoppingCart" asp-action="AddItem" method="post">
+                                <input type="hidden" name="userId" value="1" /> <!-- Replace with actual userId -->
+                                <input type="hidden" name="bookId" value="@item.Id" /> <!-- Pass the bookId -->
+                                <button type="submit" class="btn btn-sm btn-success">
+                                    <i class="fas fa-cart-plus"></i> Add to Cart
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+<!-- Ensure you have a reference to FontAwesome for the search icon -->
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+}
